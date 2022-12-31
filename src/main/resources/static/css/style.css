@@ -1,0 +1,26 @@
+body {
+    /*Para la barra superior fija*/
+    padding-top: 70px;
+    /*Para la barra inferior fija*/
+    padding-bottom: 70px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+.list-inline-item {
+    text-align: center;
+    color: white;
+}
+
+.list-inline {
+    text-align: center;
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+}

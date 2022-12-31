@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FULL-CLEAN</title>
+    <!--CSS de Bootstrap 4.2.1-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="index/assets/css/style.css">
+</head>
+
+<body>
+<header id="inicio">
+
+    <!--barra de navegacion!---->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top color-fondo">
+        <section class="container">
+        <span class="border border-white">
+        <a class="navbar-brand" href="#">
+          <img src="index/assets/img/logofull.jpeg" width="120" height="73" class="pl-3" alt="fullclean-logo">
+         </a>
+        </span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-pills ml-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#productos">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contacto">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/vender/">ACCESO ADMIN</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </nav>
+
+</header>
+
+<!--carrusel slider-->
+
+<div class="piefoto">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="index/assets/img/10.jpeg" alt="First slide" width:100%;
+                     height:auto;>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="index/assets/img/5.jpeg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="index/assets/img/9.jpeg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="index/assets/img/2.jpeg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="index/assets/img/1.jpeg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="index/assets/img/7.jpeg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="index/assets/img/6.jpeg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="index/assets/img/4.jpeg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="index/assets/img/3.jpeg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+</div>
+
+<!--seccion productos-->
+<div class="caja">
+    <section class="productos pt-5 mt-5  bg-white text-dark" id="productos">
+        <div class="container">
+            <h2 class="title text-wrap text-center  my-4 mb-5 ">Nuestros Productos</h2>
+            <div class="row justify-content-md-center">
+
+                <div class="col-md-4 ">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="index/assets/img/2.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Detergente de ropa 5lts.</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center"><h6>$4.000 clp</h6></li>
+
+
+                        </ul>
+                        <div class="card-body">
+                            <button data-toggle="modal" data-target="#uno" href="#" type="button" class="btn btn-info">
+                                Ver más
+                            </button>
+                            <a href="#contacto">
+                                <button type="button" class="btn btn-outline-warning">Contactar</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="index/assets/img/1.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Alcohol líquido 1lt.</h5>
+
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center"><h6>$3.500 CLP</h6></li>
+
+
+                        </ul>
+                        <div class="card-body">
+                            <button data-toggle="modal" data-target="#dos" href="#" type="button" class="btn btn-info">
+                                Ver más
+                            </button>
+                            <a href="#contacto">
+                                <button type="button" class="btn btn-outline-warning">Contactar</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card mb-5" style="width: 18rem;">
+                        <img class="card-img-top" src="index/assets/img/3.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Limpiador multiuso</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center"><h6>$1.800 CLP</h6></li>
+
+                        </ul>
+                        <div class="card-body">
+                            <button data-toggle="modal" data-target="#tres" href="#" type="button" class="btn btn-info">
+                                Ver más
+                            </button>
+                            <a href="#contacto">
+                                <button type="button" class="btn btn-outline-warning">Contactar</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="index/assets/img/4.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Jabón Líquido 1lt.</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center"><h6>$1.500 CLP</h6></li>
+
+
+                        </ul>
+                        <div class="card-body">
+                            <button data-toggle="modal" data-target="#cuatro" href="#" type="button"
+                                    class="btn btn-info">Ver más
+                            </button>
+                            <a href="#contacto">
+                                <button type="button" class="btn btn-outline-warning">Contactar</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="index/assets/img/5.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Lavalozas 950cc.</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center"><h6>$1.000 CLP</h6></li>
+
+
+                        </ul>
+                        <div class="card-body">
+                            <button data-toggle="modal" data-target="#cinco" href="#" type="button"
+                                    class="btn btn-info">Ver más
+                            </button>
+                            <a href="#contacto">
+                                <button type="button" class="btn btn-outline-warning">Contactar</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="index/assets/img/6.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Cloro Gel 900cc</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center"><h6>$1.200 CLP</h6></li>
+
+
+                        </ul>
+                        <div class="card-body">
+                            <button data-toggle="modal" data-target="#seis" href="#" type="button" class="btn btn-info">
+                                Ver más
+                            </button>
+                            <a href="#contacto">
+                                <button type="button" class="btn btn-outline-warning">Contactar</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--modals-->
+
+    <div class="modal fade" id="uno" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content text-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Detergente de Ropa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid mb-3" src="index/assets/img/2.jpeg" alt="Card image cap">
+
+                    <p>Detergente ACTIVE 5 litros.
+                        Fórmula concentrada con un toque de suavizante. Poder desmanchador y fragancia insuperable deja
+                        tu ropa impecable, suave y con aroma a limpio</p>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="dos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content text-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Alcohol líquido</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid mb-3" src="index/assets/img/1.jpeg" alt="Card image cap">
+
+                    <p>Alcohol líquido concentracion al 70% Ideal para limpieza y desinfección. Norma y certificación
+                        ISP Chile.
+                    </p>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="tres" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content text-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Limpiador Multiuso</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid mb-3" src="index/assets/img/3.jpeg" alt="Card image cap">
+
+                    <p>Limpiador multiusos con desinfectante para todo tipo de superficies. Ideal para pisos, limpia,
+                        desmancha y desinfecta. 5 tipos de aromas Bosques de bambú, frutos rojos, primavera, lavanda</p>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="cuatro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content text-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Jabón Líquido</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid mb-3" src="index/assets/img/4.jpeg" alt="Card image cap">
+
+                    <p>Jabón líquido con glicerina 1 litro. Variedades: yogurt coco vainilla/yogurt arandano
+                        berries/yogurt crema </p>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="cinco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content text-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Lavalozas</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid mb-3" src="index/assets/img/5.jpeg" alt="Card image cap">
+
+                    <p>Lavalozas 900cc. concentrado de alto poder humectante, de elevada disolución y emulsión de las
+                        grasas y aceites. Tambien cuenta con poder desinfectante gracias a la integrcion de amnonio
+                        cuaternario en su fórmula y además posee un agradable aroma a limón </p>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="seis" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content text-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cloro Gel</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid mb-3" src="index/assets/img/6.jpeg" alt="Card image cap">
+
+                    <p>Limpiador clorado gelificado. Detergente con gran poder higienizante y de alta espuma, rápida
+                        eliminación de grasas, rebajando la carga bacteriana y desodorizando ambientes.
+                        Producto con registro ISP.
+                        Variedades: limón, menta y clásico</p>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="pagos">
+        <section class="icons-section  d-none d-md-block  text-white p-5 ">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <h3 class="text-nowrap font-weight-bold">
+                            Puedes pagar con: </h3>
+                    </div>
+
+                    <div class="col-2  ">
+                        <div class="d-flex justify-content-between">
+                            <i class="fas fa-wallet fa-4x" data-toggle="tooltip" data-placement="bottom"
+                               title="Efectivo"></i>
+                            <i class="far fa-credit-card fa-4x" data-toggle="tooltip" data-placement="bottom"
+                               title="Transferencia electronica"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <footer id="contacto" class=" text-center py-5 color-fondo">
+        <div class="f">
+            <h3>Nuestras redes sociales y contacto</h3>
+            <a href="#inicio">
+
+                <img src="index/assets/img/logofull.jpeg" width="75" height="40" class="px-2" alt="full-clean-logo">
+            </a>
+        </div>
+        <div class="container-fluid">
+            <a href="https://www.facebook.com/fullclean2021/" target="_blank" data-toggle="tooltip"
+               data-placement="left" title="facebook"><i class="fab fa-facebook-square fa-3x"></i></a>
+            <a href="https://www.instagram.com/fullclean.inst/" target="_blank" data-toggle="tooltip"
+               data-placement="left" title="instagram"><i class="fab fa-instagram fa-3x"></i></a>
+            <a href="https://www.gmail.com" target="_blank" data-toggle="tooltip" data-placement="right" title="mail"><i
+                    class="fas fa-envelope-square fa-3x"></i></a>
+
+        </div>
+</div>
+</footer>
+
+<!--jQuery 3.3.1 sin slim-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+
+<!--Bootstrap JS 4.2.1-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+</script>
+
+<script src="index/assets/js/script.js"></script>
+</body>
+
+
+</html>
